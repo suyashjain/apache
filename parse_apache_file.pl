@@ -30,7 +30,7 @@
 #    I    Idle cleanup of worker
 #    .    Open slot with no current process
 
-######    The following keys are set to 0 if extended server-status is not activated. #######
+######    The following keys are set to 0 if extended server-status is not activated. ########
 
 #    ta   Total accesses
 #    tt   Total traffic
