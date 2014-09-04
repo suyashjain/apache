@@ -1,8 +1,3 @@
-apache
-======
-
-Apache Related Scrips
-
 #!/usr/bin/perl
 ################################################################################################################################################
 #The perl script uses the Parse::Apache::ServerStatus to fetch the apache statistics.
