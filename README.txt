@@ -23,16 +23,13 @@ To enable the server status check the following configuration in the server http
 (8) Allow from < the script source ip address>
 (9) </Location>
 #################### OUTPUT #############################################################
-p Parents (this key will be kicked in future releases, dont use it)
 
-r Requests currenty being processed
-
-i Idle workers
-
-_ Waiting for Connection
-
-S Starting up
-R Reading Request
+# p Parents (this key will be kicked in future releases, dont use it)
+# r Requests currenty being processed
+# i Idle workers
+# _ Waiting for Connection
+# S Starting up
+# R Reading Request
 # W Sending Reply
 # K Keepalive (read)
 # D DNS Lookup
@@ -50,7 +47,7 @@ R Reading Request
 ################################ SAMPLE OUTPUT ##################################################################
 # Command:
 #
-perl parse_status.pl localhost
+$perl parse_status.pl localhost
 #
 # Output:
 
