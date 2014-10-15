@@ -4,10 +4,15 @@ apache
 Apache Related Scrips
 
 The perl script uses the Parse::Apache::ServerStatus to fetch the apache statistics.
+
 The scripts takes the hostname/ipaddress as the only argurement.if none is passed , "localhost" is used.
+
 The script uses hostname to create the apache server-status url. http://hostname/server-status
+
 Please make sure that server-status is enabled on server.
+
 To enable the server status check the following configuration in the server httpd.conf,following 9 lines should be uncomment in configuration.
+
 (1) LoadModule status_module modules/mod_status.so
 (2) ExtendedStatus On
 (3) < Location /server-status >
