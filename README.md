@@ -53,7 +53,7 @@ R Reading Request
 # perl parse_status.pl localhost
 #
 # Output:
-#
+
 #Fetching URL...http://localhost/server-status
 #
 # p r i _ S R W K D C L G I . ta tt rs bs br
